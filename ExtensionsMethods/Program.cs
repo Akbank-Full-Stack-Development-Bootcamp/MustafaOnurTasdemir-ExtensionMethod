@@ -23,7 +23,7 @@ namespace ExtensionsMethods
             Console.WriteLine("");
 
             Console.WriteLine("**********Sezar Şifreleme Yöntemi*******");
-            // Sezar Şifreleme : kullanıcı tarafından girilen metin ve anahtar vardır. Bu anahtara göre metin şifrelenir.
+            // Sezar Şifreleme : kullanıcı tarafından girilen metin ve anahtar vardır. Bu anahtara göre metin sifrelenir.
             //Anahtar değeri kadar metinde bulunan harfler ötelenir. Örneğin anahtar değerimiz 2, 'a' harfi 'c' olacaktır.
 
             Console.Write("lütfen türkçe karakter olmayan bir metin giriniz: ");
