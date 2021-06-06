@@ -11,10 +11,9 @@ namespace ExtensionsMethods
 
         static void Main(string[] args)
         {
-
+            Console.WriteLine("*******Kullanıcı Adı Önerme******");
             //Önerilen kullanıcı adı : Kullanıcı tarafından girilen ama örneğin veritabanında kayıtlı olan userName'e alternatif olarak bir öneride bulunmak.
 
-            Console.WriteLine("*******Kullanıcı Adı Önerme******");
             Console.Write("Kullanıcı Tarafından Girilen Kullanıcı Adı: ");
             string userName = Console.ReadLine();
             string availableUsername = userName.RecommendedUsername(userName);
